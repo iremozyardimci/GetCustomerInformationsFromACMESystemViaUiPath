@@ -1,2 +1,4 @@
 # GetCustomerInformationsFromACMESystemViaUiPath
-The robot get customer informations from ACME System and write it to Excel sheet.
+The robot gets customer informations from ACME System and writes it to Excel sheet.
+
+Firstly, the robot gets the user information to log in to the ACME system (https://acme-test.uipath.com/login) from the user. The ACME system is a platform created by UiPath that stores different types of information for trials. You must have an ACME account for this process and beyond. The robot, which logs in with the user information it has received, goes to the Work Items tab on the main page and transfers the data to the data table with data scraping. With Basic LinQ queries, the data in the data table is filtered. Data, where "Description" column is equal to "Calculate Client Security Hash" and "Type" column, is equal to "WI5" is filtered. For each filtered data, the "Work Item Details" page is accessed and the data gets with the "Get Text" activity. The received data is saved in a new data table. The Date variable kept in the data table is written in the new column using Turkish month names. The saved data table is written to the Excel file.
