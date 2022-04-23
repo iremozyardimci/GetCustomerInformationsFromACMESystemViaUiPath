@@ -9,6 +9,6 @@ With Basic LinQ queries, the data in the data table is filtered. Data, where "De
 
 ![Work Item Details](https://user-images.githubusercontent.com/64749586/164914928-a29be3d2-7a9c-4942-932e-9829c1abb72e.JPG)
 
-The received data is saved in a new data table. The Date variable kept in the data table is written in the new column using Turkish month names. The saved data table is written to the Excel file.
+The received data is saved in a new data table. The Date variable kept in the data table is written in the new column using Turkish month names. The saved data table is written to the Excel file. Output of the robot shown below.
 
 ![ACME çıktı excel](https://user-images.githubusercontent.com/64749586/164914938-17d59210-86b6-4bec-b076-871e66575588.JPG)
